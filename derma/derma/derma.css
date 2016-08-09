@@ -1,0 +1,337 @@
+body
+{
+  background: rgba( 235, 240, 255, 1 );
+  margin: 0px;
+}
+
+.division
+{
+  width: calc( 25% - 36px );
+  border: 1px dotted rgba( 30, 30, 30, 1 );
+  float: left;
+  padding: 5px;
+  margin: 12px;
+}
+
+.division span
+{
+  color: rgba( 81, 81, 81, 1 );
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+}
+
+.division-header
+{
+  height: 40px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  background: rgba( 30, 30, 30, 1 );
+}
+
+.dframe
+{
+  background: rgba( 97, 100, 102, 1 );
+  border: 1px solid rgba( 67, 67, 67, 1 );
+  border-radius: 2px;
+}
+
+.dframe-bar
+{
+  font-family: "Tahoma";
+  font-size: 11px;
+  color: rgba( 181, 181, 182, 1 );
+  background: rgba( 110, 112, 114, 1 );
+  border: 1px solid rgba( 133, 135, 137, 1 );
+  border-bottom: none;
+  border-radius: 2px 2px 0px 0px;
+  padding: 4px 6px 9px 6px;
+  height: 9px;
+}
+
+.dframe-body
+{
+  font-family: "Tahoma";
+  font-size: 11px;
+  color: rgba( 210, 210, 210, 1 );
+  border: 1px solid rgba( 117, 119, 121, 1 );
+  border-top: none;
+  border-radius: 0px 0px 2px 2px;
+  padding: 5px;
+}
+
+.dbutton
+{
+  color: rgba( 81, 81, 81, 1 );
+  background: linear-gradient( to bottom, rgba( 255, 255, 255, 1 ) 0%, rgba( 226, 226, 226, 1 ) 100%) ;
+  font-family: "Tahoma";
+  font-size: 11px;
+  border-radius: 2px;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  cursor: pointer;
+  padding: 12px 11px 12px 11px;
+  font-weight: normal;
+}
+
+.dbutton:hover
+{
+  color: rgba( 42, 115, 180, 1 );
+  background: linear-gradient( rgba( 241, 241, 241, 1 ), rgba( 240, 240, 240, 1 ) );
+}
+
+.dpanel
+{ 
+  font-family: "Tahoma";
+  font-size: 11px;
+  font-weight: normal;
+  padding: 6px;
+  border-radius: 2px;
+  background: rgba( 234, 234, 234, 1 );
+  box-shadow: 0px 0px 8px 4px rgba( 0, 0, 0, 0.04) inset;
+}
+
+.dcategorylist
+{
+  font-family: "Tahoma";
+  font-size: 11px;
+  border: 1px solid rgba( 92, 92, 92, 1 );
+  border-radius: 2px;
+  padding: 1px;
+  background: rgba( 243, 243, 243, 1 );
+}
+
+.dcategorylist-bar
+{
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba( 215, 232, 255, 1 );
+  background: rgba( 124, 190, 255, 1 );
+  padding: 6px 5px 6px 5px;
+  border-radius: 2px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.dcategorylist-bar:hover
+{
+  color: rgba( 245, 247, 251, 1 );
+}
+
+.dcategorylist-body
+{
+  font-family: "Tahoma";
+  font-size: 11px;
+  padding: 4px;
+}
+
+.dcheckbox
+{
+  background: rgba( 255, 0, 0, 1 );
+}
+
+.dcheckbox-box
+{
+  float: left;
+  width: 13px;
+  height: 13px;
+  background: rgba( 255, 255, 255, 1 );
+  border: 1px solid rgba( 93, 93, 93, 1 );
+  border-radius: 2px;
+}
+
+.dcheckbox-label
+{
+  float: left;
+  font-family: "Tahoma";
+  font-size: 11px;
+  margin-left: 2px;
+}
+
+.dcolorbutton
+{
+  background: rgba( 255, 0, 255, 1 );
+  border: 1px solid rgba( 0, 0, 0, 0.5 );
+  border-bottom: none;
+  border-right: none;
+  color: rgba( 210, 210, 210, 1 );
+  font-family: "Tahoma";
+  font-size: 11px;
+  line-height: 40px;
+}
+
+.dcolumnsheet
+{
+  display: flex;
+}
+
+.dcolumnsheet-tabs
+{
+  width: 25%;
+  float: left;
+}
+
+.dcolumnsheet-tab
+{
+  color: rgba( 81, 81, 81, 1 );
+  background: linear-gradient( to bottom, rgba( 255, 255, 255, 1 ) 0%, rgba( 255, 255, 255, 1 ) 50%, rgba( 226, 226, 226, 1 ) 51%, rgba( 226, 226, 226, 1 ) 100%);
+  font-family: "Tahoma";
+  font-size: 11px;
+  border-radius: 2px;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 14px 0px 15px 0px;
+  font-weight: normal;
+  height: 20px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+
+.dcolumnsheet-tab:hover
+{
+  color: rgba( 255, 255, 255, 1 );
+  background: linear-gradient( to bottom, rgba( 109, 190, 247, 1 ) 0%, rgba( 109, 190, 247, 1 ) 50%, rgba( 83, 177, 244, 1 ) 51%, rgba( 83, 177, 244, 1 ) 100%);
+}
+
+.dcolumnsheet-panel
+{
+  font-family: "Tahoma";
+  font-size: 11px;
+  font-weight: normal;
+  padding: 6px;
+  border-radius: 2px;
+  background: rgba( 234, 234, 234, 1 );
+  width: calc( 75% - 12px );
+  float: left;
+  box-shadow: 0px 0px 8px 4px rgba( 0, 0, 0, 0.04 ) inset;
+}
+
+.dcombobox
+{
+  font-family: "Tahoma";
+  font-size: 10px;
+  color: rgba( 81, 81, 81, 1 );
+}
+
+.dcombobox-menu
+{
+  position: absolute;
+  z-index: 999;
+  padding: 1px;
+  margin: 0px;
+  list-style-type: none;
+  background: rgba( 255, 255, 255, 1 );
+  border-radius: 2px;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+}
+
+.dcombobox-menu li
+{
+  margin: 6px 25px 6px 25px;
+  cursor: pointer;
+}
+
+.dcombobox-menu li:hover
+{
+  background: rgba( 202, 220, 247, 1 );
+}
+
+.dcombobox-button
+{
+  background: rgba( 255, 255, 255, 1 );
+  border-radius: 2px;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+  cursor: pointer;
+  padding: 5px 4px 3px 4px;
+  font-weight: normal;
+}
+
+.dcombobox-button:before
+{
+  content: "▾";
+}
+
+.dcombobox-menu li:before
+{
+  content: "▸";
+}
+
+.dcombobox-button:hover
+{
+  color: rgba( 0, 0, 0, 1 );
+  background: rgba( 133, 197, 255, 1 );
+}
+
+.diconlayout
+{
+  border: 1px dotted black;
+  overflow-y: scroll;
+}
+
+.diconlayout > *
+{
+  margin: 2%;
+  display: inline-block;
+  position: relative;
+}
+
+.dlistview
+{
+  background: rgba( 255, 255, 255, 1 );
+  font-family: "Tahoma";
+  font-size: 11px; 
+  border-collapse: separate;
+  border-spacing: 0px;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+  border-top: none;
+  border-radius: 2px;
+  color: rgba( 0, 0, 0, 1 );
+}
+
+.dlistview th
+{
+  background: linear-gradient( to bottom, rgba( 255, 255, 255, 1 ) 0%, rgba( 226, 226, 226, 1 ) 100%) ;
+  border: 1px solid rgba( 82, 82, 82, 1 );
+  line-height: 14px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.dlistview th:first-of-type
+{
+  border-left: none;
+}
+
+.dlistview th:last-of-type
+{
+  border-right: none;
+}
+
+.dlistview th:hover
+{
+  color: rgba( 42, 115, 180, 1 );
+  background: linear-gradient( rgba( 241, 241, 241, 1 ), rgba( 240, 240, 240, 1 ) );
+}
+
+.dlistview tr:nth-child(2n)
+{
+  background: rgba( 242, 242, 255, 1 );
+}
+
+.dlistview tr:hover
+{
+  color: rgba( 255, 255, 255, 1 );
+  background: rgba( 90, 139, 247, 1 );
+}
+
+.dlistview td
+{
+  padding: 4px 4px 4px 4px;
+}
